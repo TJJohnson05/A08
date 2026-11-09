@@ -70,18 +70,19 @@ header {
 
 /* the styles for the main content */
 main {
-	display: flex;
-	padding: 0 1em 1em;
-		
-	}
-	& blockquote {
-		font-style: italic;
-		padding-left: 1em;
-	}
-	& img {
-		border: 4px double var(--accent-color);
-		border-radius: 10px;
-	}
+    display: flex;
+    padding: 0 1em 1em;
+
+    & blockquote {
+        font-style: italic;
+        padding-left: 1em;
+    }
+
+    & img {
+        border: 4px double var(--accent-color);
+        border-radius: 10px;
+    }
+}
 
 aside {
 	flex-basis: 25%;
@@ -104,9 +105,10 @@ section img {
 	max-width: 250px;
 }
 .featured {
-	border-top: 2px solid var(--accent-color);
-	border-bottom: 2px solid var(--accent-color);
-	padding: 1em 0;
+    display: flow-root;
+    border-top: 2px solid var(--accent-color);
+    border-bottom: 2px solid var(--accent-color);
+    padding: 1em 0;
 }
 /* the styles for the footer */
 footer {
